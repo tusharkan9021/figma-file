@@ -1,0 +1,331 @@
+.div {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 11px;
+}
+.wrapper {
+  width: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.month {
+  margin: 0;
+  height: 32px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: var(--font-garnett-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 49px;
+}
+.frame-parent5,
+.frame-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.frame-wrapper3 {
+  align-self: stretch;
+  padding: 0 var(--padding-48xl);
+}
+.h1 {
+  margin: 0;
+  height: 56px;
+  width: 26px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: var(--font-space-grotesk);
+  flex-shrink: 0;
+  min-width: 26px;
+}
+.div1,
+.h1,
+.month1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div1 {
+  height: 56px;
+  flex: 1;
+  min-width: 90px;
+}
+.month1 {
+  height: 38px;
+  width: 61px;
+  font-size: var(--font-size-base);
+  flex-shrink: 0;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  row-gap: 20px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-garnett-medium);
+}
+.frame-parent4,
+.frame-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent4 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-17xl) 0 var(--padding-16xl);
+}
+.suitable-for-companies {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.interview-ready-candidates {
+  flex: 1;
+  position: relative;
+}
+.icons-parent {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.unlimited-job-postings {
+  flex: 1;
+  position: relative;
+}
+.icons-group {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.receive-pre-vetted-profiles {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 170px;
+}
+.icons-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dedicated-account-manager {
+  flex: 1;
+  position: relative;
+}
+.icons-parent1 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.assistance-with-interview {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 159px;
+}
+.icons-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.custom-reports {
+  flex: 1;
+  position: relative;
+}
+.icons-parent3 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frame-parent6,
+.suitable-for-companies-with-5-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent6 {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.suitable-for-companies-with-5-parent {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-garnett-medium);
+}
+.simple-button4 {
+  align-self: stretch;
+  flex: 1;
+}
+.frame-parent3,
+.simple-button-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.simple-button-frame {
+  align-self: stretch;
+  height: 59px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.frame-parent3 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0 20px 40px rgba(118, 118, 118, 0.35);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-15xl) var(--padding-15xl) var(--padding-11xl)
+    var(--padding-16xl);
+  gap: var(--gap-27xl);
+  min-width: 274px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--primary-100);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 825px) {
+  .div1,
+  .h1 {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-parent3 {
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .month {
+    font-size: var(--font-size-lg);
+  }
+  .frame-parent5 {
+    flex-wrap: wrap;
+  }
+  .div1,
+  .h1 {
+    font-size: var(--font-size-5xl);
+  }
+  .icons-container,
+  .icons-parent2,
+  .parent {
+    flex-wrap: wrap;
+  }
+  .simple-button4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-parent3 {
+    gap: 23px 46px;
+  }
+}

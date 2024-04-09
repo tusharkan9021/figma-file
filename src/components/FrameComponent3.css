@@ -1,0 +1,162 @@
+.talent-assessment {
+  font-family: var(--font-garnett-regular);
+}
+.discover-the-future-container {
+  margin: 0;
+  align-self: stretch;
+  height: 118px;
+  position: relative;
+  font-size: var(--font-size-23xl);
+  color: var(--primary-100);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-garnett-semibold);
+}
+.facing-challenges-in,
+.uncover-the-costs {
+  margin: 0;
+}
+.facing-challenges-in-container {
+  align-self: stretch;
+  position: relative;
+}
+.inside-this-whitepaper {
+  margin: 0;
+}
+.manual-vs-machine-based {
+  font-family: var(--font-poppins);
+}
+.manual-vs-machine-based-hirin1 {
+  margin-bottom: 0;
+}
+.the-truth-about {
+  font-family: var(--font-poppins);
+}
+.the-truth-about-interview-as {
+  margin-bottom: 0;
+}
+.generative-ai-the {
+  font-family: var(--font-poppins);
+}
+.manual-vs-machine-based-hirin {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.inside-this-whitepaper-container {
+  align-self: stretch;
+  position: relative;
+}
+.discover-the-future-of-talent-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.cta-button2 {
+  width: 591px;
+  height: 70px;
+  max-width: 100%;
+}
+.frame-parent14 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-75xl);
+  min-width: 502px;
+  max-width: 100%;
+}
+.wrapper-rectangle-39394-child {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -9px;
+  top: 10px;
+  transform: scale(1.049);
+}
+.wrapper-rectangle-39394 {
+  height: 563px;
+  width: 387px;
+  position: relative;
+  border-radius: var(--br-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta,
+.cta-wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cta {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-62xl) var(--padding-101xl) var(--padding-91xl);
+  gap: var(--gap-21xl);
+}
+.cta-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-49xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .wrapper-rectangle-39394-child {
+    flex: 1;
+  }
+  .cta {
+    flex-wrap: wrap;
+  }
+  .cta-wrapper {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .discover-the-future-container {
+    font-size: var(--font-size-15xl);
+  }
+  .frame-parent14 {
+    gap: 47px 94px;
+    min-width: 100%;
+  }
+  .cta {
+    gap: 40px 20px;
+    padding: var(--padding-34xl) var(--padding-41xl) var(--padding-52xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discover-the-future-container {
+    font-size: var(--font-size-6xl);
+  }
+  .frame-parent14 {
+    gap: 23px 94px;
+  }
+  .cta,
+  .cta-wrapper {
+    box-sizing: border-box;
+  }
+  .cta {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .cta-wrapper {
+    padding-bottom: var(--padding-10xl);
+  }
+}
